@@ -10,8 +10,9 @@ spring:
 zuul:
   routes:
     springcloud-consumer-config: /consumer/**
+    springcloud-consumer-feign: /feign-consumer/**
     springcloud-provider-config: /provider/**
-    
+
 # keycloak:
 #   realm : springcloud-zuul
 #   auth-server-url : http://127.0.0.1:8080/auth
