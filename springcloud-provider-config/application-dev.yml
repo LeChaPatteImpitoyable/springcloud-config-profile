@@ -11,8 +11,8 @@ spring:
   datasource:
     druid:
       url: jdbc:mysql://127.0.0.1:3306/spcloud
-      username: root
-      password: booszy
+      username: ying
+      password: ying
   application:
     name: springcloud-provider-config
   profiles:
